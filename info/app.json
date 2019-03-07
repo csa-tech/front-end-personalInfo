@@ -1,0 +1,34 @@
+{
+  "pages":[
+    "pages/completeSelf/completeSelf",
+    "pages/self/self",
+    "pages/newest/newest",
+    "pages/term/term",
+    "pages/main/main"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#E62900",
+    "navigationBarTitleText": "搭车",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/main/main",
+      "text": "主页",
+      "iconPath": "pages/image/chat.png",
+      "selectedIconPath": "pages/image/chat.png"
+    },{
+      "pagePath": "pages/newest/newest",
+      "text": "最新",
+      "iconPath": "pages/image/like.png",
+      "selectedIconPath": "pages/image/like.png"
+    },
+    {
+      "pagePath": "pages/completeSelf/completeSelf",
+      "text": "我的",
+      "iconPath": "pages/image/mine.png",
+      "selectedIconPath": "pages/image/mine.png"
+    }]
+  }
+}
